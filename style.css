@@ -1,0 +1,258 @@
+body{
+    padding: 0 100px;
+    background-color: #10151D;
+    font-family: 'Bree Serif', serif;
+    overflow-x: hidden;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .logo{
+    color: white;
+    font-size: 15px;
+
+}
+
+.main .headers .ullist ul li{ 
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin-right: 40px;
+    
+}
+
+.headers .ullist ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.main .button-b button{
+    padding: 6px 15px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #3A4F7A, #FEA1BF);
+    font-size: 12px;
+    color: black;
+    box-shadow: 2px 3px 8px white;
+}
+
+
+.main .button-b a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.hero{
+    margin-top: 100px;
+   
+}
+
+.slogan{
+    display: flex;
+   
+}
+
+.slogan .contenttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenttext h1{
+    font-size: 40px;
+    color: white;
+}
+
+.contenttext h1 span{
+    color: #97DECE;
+}
+
+.contenttext .icerik{
+    display: flex;
+    gap: 15px;
+    color: white;
+    line-height: 9px;
+    font-size: 12px;
+}
+
+.desc {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc button{
+    border-radius: 50%;
+    width: 150px;
+    height: 100px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(45deg,#fa8bff 0%,#2bff88 52%,#2bff88 90%);
+}
+
+.desc p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.hero img{
+   width: 500px;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.brands img{
+    width: 150px;
+    height: 60px;
+}
+
+
+.superhot h1{
+    color: white;
+}
+
+.superhot ul{
+    list-style: none;
+     color: white;
+    display: flex;
+    gap: 40px;
+}
+
+.superhot ul li{
+    position: relative;
+    background-color: darkgray;
+    padding: 5px 8px;
+    border-radius: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cards{
+    width: 100wh;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15%;
+    justify-content: space-between;
+   
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.value{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 10px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.left img{
+ width: 20px;
+}
+.left p{
+    color: aquamarine;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.time p {
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: darkgray;
+    border-radius: 25px;
+    padding: 10px;
+}
+.time button{
+   border: none;
+   background-color: white;
+   font-weight: 600;
+   border-radius: 10px;
+   transition: all 0.5s ease-in;
+   cursor: pointer;
+}
+
+.add{
+    margin: -120px; 
+    width: 120vw;
+    min-height: 150px;
+    background-color: deepskyblue;
+    margin-top: 200px;
+    color: white;
+    font-size: 136px;
+    line-height: 146px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 20px;
+    font-weight: 800;
+    white-space: nowrap;
+    transform: rotate(-6deg);
+    text-shadow: 2px 2px 39px rgba(0, 0, 0, 0.6);
+}
+
+.infos{
+    min-width: 900px;
+    min-height: 600px;
+    margin-top: 300px;
+    
+
+}
+
+.infos h1{
+    color: white;
+}
+
+.info1{
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    color: wheat;
+    justify-content: space-between;
+
+}
+.infosv1 img{
+    margin-left: 5%;
+}
+
+.infosv1{
+    min-width: 300px;
+    min-height: 250px;
+    background-color: rgb(72, 33, 105);
+    border-radius: 4%;
+    padding: 20px;
+}
